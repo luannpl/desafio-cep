@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+}
+
+.div-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.div-input{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 40px;
+    gap: 8px;
+    background-color: rgb(42, 97, 161);
+    border-radius: 8px;
+    color: #fff;
+}
+
+.div-input input{
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    padding: 4px;
+}
+
+.div-input input:hover{
+    outline: 2px dashed #fff;
+
+
+}
+
+
+#card{
+    background-color: red;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.conteudo{
+    background-color: aqua;
+    width: 200px;
+    display: flex;
+   
+}
